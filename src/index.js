@@ -5,6 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./Home";
 import Footer from "./Footer";
+import Counter from "./Counter";
+import FAQS from "./FAQS";
+import Doublecount from "./Doublecount";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,10 +15,10 @@ root.render(
     {/* <App /> */}
     <Home />
     <Footer />
+    <Counter />
+    <FAQS />
+    <Doublecount/>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
